@@ -6,10 +6,12 @@ The files you see here belong to the facial recognition project with machine lea
 
 Members
 -----------------------------------
--
--
--
--
+- Alejandro Steinman 
+- Julian Rodriguez
+- Juan Florez 
+- Jesus Puello 
+- Jessica Sampayo 
+- Isabella Echenique 
 -----------------------------------
 
 Description
