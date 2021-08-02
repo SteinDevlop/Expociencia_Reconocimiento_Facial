@@ -1,6 +1,6 @@
 # Expociencia_Reconocimiento_Facial_10
 
-🤩 Welcome to exposcience 2021 🤩
+🤩 Welcome to expo science 2021 🤩
 
 The files you see here belong to the facial recognition project with machine learning from grade 10
 
@@ -16,6 +16,6 @@ Members
 
 Description
 -----------------------------
-The project scans videos, photos, gifs and cameras in search of human faces, It is written with the programming language Python with Opencv
+The project scans videos, photos, GIFs and cameras in search of human faces, It is written with the programming language Python with OpenCV
 ----------------------------------------
-👾 Enjoy this Exposcience 👾
+👾 Enjoy this Expo science 👾
