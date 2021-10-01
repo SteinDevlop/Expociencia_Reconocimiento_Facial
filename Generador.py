@@ -56,7 +56,7 @@ while True:
         id = id+1
     cv.imshow("Resultado Rostro",Captura)
 
-    if id == 1000:
+    if id == 501:
         break
     if cv.waitKey(1) == ord("x"):
         break
