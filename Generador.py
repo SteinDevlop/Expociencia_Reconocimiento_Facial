@@ -11,6 +11,8 @@ Seleccione status del modelo segun su numero:
 5-Visitante
 
 """)
+identificador_modelo = input("Indique el identificador del modelo: ")
+
 if statuo_modelo == "1":
     statuo_modelo = "EST"
 if statuo_modelo == "2":
@@ -22,18 +24,19 @@ if statuo_modelo == "4":
 if statuo_modelo == "5":
     statuo_modelo = "VSI"
 else:
-   exit()
-identificador_modelo = input("Indique el identificador del modelo: ")
+
+   pass
+
 
 nombre_modelo = print(f"Modelo Registrado como: {statuo_modelo}{identificador_modelo}")
 modelo = statuo_modelo + identificador_modelo
-ruta1 = r"C:/Users/Luz Elena\Desktop/Programas yt programacion/Python/Reconocimiento facial/End Game/Goe/Data_Training"
+ruta1 = "Data_Training"
 rutacompleta = ruta1 + "/" + modelo
 if not os.path.exists(rutacompleta):
  os.makedirs(rutacompleta)
 
 
-ruidos = cv.CascadeClassifier(r"C:\Users\Luz Elena\Desktop\Programas yt programacion\Python\Reconocimiento facial\End Game\Entrenamiento\opencv-master\data\haarcascades\haarcascade_frontalface_default.xml")
+ruidos = cv.CascadeClassifier("haarcascade_frontalface_default.xml")
 camara = cv.VideoCapture(0)
 id = 0
 while True:
@@ -53,10 +56,8 @@ while True:
         id = id+1
     cv.imshow("Resultado Rostro",Captura)
 
-    if id == 501:
+    if id == 1000:
         break
     if cv.waitKey(1) == ord("x"):
         break
 camara.release()
-cv.destroyAllWindows()
-
