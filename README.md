@@ -2,17 +2,17 @@ Este proyecto, fue desarollado para la Expociencia L CDLE
 
 El proyecto escanea vídeos, fotos, GIFs y cámaras en busca de rostros humanos, está escrito con el lenguaje de programación Python con OpenCV
 
-#Instalacion
+## Instalacion
 
-Descargue el archivo .zip (code > download zip)
-Extraiga el archivo .zip
+- Descargue el archivo .zip (code > download zip)
 
-#Uso
+- Extraiga el archivo .zip
 
-Ejecute el ejecutable en la carpeta extraida segun su sistema operativo
+## Uso
 
-El orden de uso es Generador, Entrenamiento, Reconocimiento; Ejecutelos segun su orden para evitar errores
+- Ejecute el archivo .py en la carpeta extraida segun su sistema operativo
 
-#Imagenes
+- El orden de uso es Generador, Entrenamiento, Reconocimiento; Ejecutelos segun su orden para evitar errores
+
 
 
