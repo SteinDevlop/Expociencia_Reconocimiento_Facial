@@ -11,7 +11,7 @@ from os import remove
 import webbrowser
 ventana = tk.Tk()
 #tamaño
-ventana.geometry("1200x800")
+ventana.geometry("1000x600")
 ventana.resizable(width=False, height=False)
 ventana.title("Expociencia 2022")
 
@@ -284,14 +284,14 @@ guia_boton.grid(row=1, column=3, sticky="ENS")
 generador_boton.place(
     relx=0.28, rely=0.20, width=200, height=100)
 entrenamiento_boton.place(
-    relx=0.28, rely=0.35, width=200, height=100)
+    relx=0.28, rely=0.40, width=200, height=100)
 resultado_boton.place(
-    relx=0.28, rely=0.50, width=200, height=100)
+    relx=0.28, rely=0.60, width=200, height=100)
 guia_boton.place(
-    relx=0.28, rely=0.65, width=200, height=100)
+    relx=0.28, rely=0.80, width=200, height=100)
 opciones_boton.place(
     relx=0.60, rely=0.84, width=200, height=50)
 promocion_boton.place(
-    relx=0.80, rely=0.84, width=200, height=50)
+    relx=0.81, rely=0.84, width=200, height=50)
 ventana.mainloop()
 
