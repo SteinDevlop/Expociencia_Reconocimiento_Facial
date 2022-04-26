@@ -1,5 +1,7 @@
 Este proyecto, fue desarollado para la Expociencia L CDLE
 
+## Ganador en la sección de tecnología
+
 El proyecto escanea vídeos, fotos, GIFs y cámaras en busca de rostros humanos, está escrito con el lenguaje de programación Python con OpenCV
 
 ## Instalacion
